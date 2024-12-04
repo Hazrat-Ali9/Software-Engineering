@@ -22,5 +22,5 @@ Function.prototype.myBind = function (...arg) {
     };
 };
 
-let printMyInfo2 = printName.myBind(info, "21/04/1997", "BUBT");
+let printMyInfo2 = printName.myBind(info, "19/12/2001", "IUS");
 printMyInfo2("Hello");
