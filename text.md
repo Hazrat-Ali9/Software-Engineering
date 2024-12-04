@@ -99,4 +99,4 @@
     12. Parallel Execution
 
 
-<!-- Node JS Deep Learning -->
+<!-- Node JS Learning -->
