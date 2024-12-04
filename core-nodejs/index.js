@@ -1,6 +1,6 @@
 require("dotenv").config();
 process.env.UV_THREADPOOL_SIZE = 1;
-
+// index js
 console.log(process.env.UV_THREADPOOL_SIZE);
 const cluster = require("cluster");
 
