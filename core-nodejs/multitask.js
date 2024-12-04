@@ -30,7 +30,7 @@ doNetWorkReq();
 fs.readFile("multitask.js", "utf8", () => {
     console.log("FS:", (Date.now() - start) / 1000 + "ms");
 });
-
+// Multitask
 doHash();
 doHash();
 doHash();
