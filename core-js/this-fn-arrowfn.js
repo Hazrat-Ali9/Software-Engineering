@@ -8,11 +8,11 @@ const person1 = {
 
 const person2 = () => {
     var p = {
-        firstName: "John",
-        lastName: "Doo",
+        firstName: "Hazrat",
+        lastName: "Ali",
     };
     return p;
 };
 
-// Return "John Doe":
+// Return "Hazrat Ali":
 console.log(person1.fullName.apply(person2()));
