@@ -1,6 +1,5 @@
 ## Table of Contents <a name="table"></a>
-
--   [JavaScript in-depth Architecture](#javascript-architecture)
+  
 -   [JavaScript Execution Context](#javascript-execution-context)
 -   [Call Stack](#call-stack)
 -   [Function Details](#function-details)
