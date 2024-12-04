@@ -12,7 +12,7 @@ function curriedMultiply(a) {
     };
 }
 
-// Curried function
+// Currying function
 function curriedMultiply2(a) {
     return function (b) {
         return function (c) {
