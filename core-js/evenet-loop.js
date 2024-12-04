@@ -14,7 +14,7 @@ function complexFunction() {
     myPromise.then((result) => {
         console.log(result);
     });
-
+// Event loop
     setTimeout(() => {
         console.log("Third setTimeout executed after 1000ms");
     }, 1000);
