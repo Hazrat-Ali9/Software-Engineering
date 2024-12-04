@@ -9,3 +9,4 @@ Array.prototype.polyfillMap = function (mapLogicFn, ...arg) {
 [2, 3].polyfillMap((each, i, self) => {
     console.log(each);
 });
+// polifill.map
