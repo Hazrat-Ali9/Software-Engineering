@@ -10,3 +10,5 @@ inheritBase.prototype = new base();
 
 let inheritObj = new inheritBase();
 console.log(inheritObj);
+
+// main Function
