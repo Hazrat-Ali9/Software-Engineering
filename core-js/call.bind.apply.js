@@ -3,7 +3,7 @@ function Person(name, age) {
     this.name = name;
     this.age = age;
 }
-
+// Call bind apply
 function Baby(name, age) {
     Person.call(this, name, age);
 }
