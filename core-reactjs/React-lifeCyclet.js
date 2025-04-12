@@ -9,14 +9,12 @@ const MyComponent = () => {
         fetchData();
 
         return () => {
-            // componentWillUnmount - cleanup logic before component unmounts
-            // Cancel subscriptions, timers, etc.
+            
         };
     }, []); // Empty dependency array means this effect runs only once (like componentDidMount)
 
     useEffect(() => {
-        // componentDidUpdate - runs whenever 'data' changes
-        // Perform actions based on changes in 'data'
+        
         if (data !== null) {
             // Do something with updated data
         }
@@ -57,8 +55,7 @@ class MyComponent2 extends Component {
     }
 
     componentWillUnmount() {
-        // Runs before the component is removed from the DOM
-        // Clean up any timers, subscriptions, or other ongoing processes here
+        
     }
 
     fetchData = async () => {
