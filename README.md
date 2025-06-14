@@ -759,3 +759,4 @@ const handleScroll = throttle(() => {
 
 window.addEventListener("scroll", handleScroll);
 ```
+[MIT License](LICENCE)
