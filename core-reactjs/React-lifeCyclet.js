@@ -1,5 +1,5 @@
 import {useEffect, useState} from "react";
-
+// React lifecycle
 const MyComponent = () => {
     const [data, setData] = useState(null);
 
